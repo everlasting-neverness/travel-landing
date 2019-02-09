@@ -1,0 +1,1 @@
+export { DetailedArticles } from "./DetailedArticles.js";

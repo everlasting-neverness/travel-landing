@@ -1,0 +1,23 @@
+.Flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.alignBaseline {
+  align-items: baseline;
+}
+
+.flexDirectionRow {
+  flex-direction: row;    
+}
+
+.flexDirectionColumn {
+  flex-direction: column;    
+}

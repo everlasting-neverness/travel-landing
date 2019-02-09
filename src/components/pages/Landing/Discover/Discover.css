@@ -1,0 +1,32 @@
+.container {
+  display: grid;
+  grid-template-rows: 1fr 0.5fr 0.5fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "title title ."
+    "content content ."
+    "form form form";
+}
+
+.title {
+  grid-area: title;
+  font-size: 3.2rem;
+  font-weight: normal;
+}
+
+.content {
+  grid-area: content;
+  margin-top: 0;
+  margin-bottom: 3rem;
+  padding-right: 12rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.form {
+  grid-area: form;
+}
+
+.formInnerContainer > * + * {
+  margin-left: 4rem;
+}

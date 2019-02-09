@@ -1,0 +1,17 @@
+.promo {
+
+}
+
+.promo:last-child {
+  margin-right: 0;
+}
+
+.title {
+  font-size: 1.1rem;
+}
+
+.content {
+  font-size: 1rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.5rem;
+}

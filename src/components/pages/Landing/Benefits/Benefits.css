@@ -1,0 +1,14 @@
+.heading {
+  font-size: 2.2rem;
+  color: #102746;
+}
+
+.content {
+  padding-top: 5.5rem;
+  padding-bottom: 2rem;
+  display: flex;
+}
+
+.content > * {
+  margin-right: 5rem;
+}

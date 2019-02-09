@@ -1,0 +1,44 @@
+.container {
+
+}
+
+.articleContainer {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+    grid-template-areas:
+        "image card";
+
+}
+
+.articleContainerReverse {
+    margin-top: 4rem;
+    grid-template-areas:
+        "card image";
+}
+
+.image {
+    grid-area: image;
+}
+
+.card {
+    grid-area: card;
+    padding-left: 2.5rem;
+}
+
+.marginBottomMax {
+    margin-bottom: 5rem;
+}
+
+.marginBottomMin {
+    margin-bottom: 3rem;
+}
+
+.fontSize {
+    font-size: 1.9rem;
+}
+
+.paddingTop {
+    padding-top: 1.8rem;
+}

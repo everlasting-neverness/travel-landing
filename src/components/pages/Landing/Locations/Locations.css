@@ -1,0 +1,70 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collage {
+    margin-top: 2.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1 0 calc(33% - 1rem);
+}
+
+.collageItem {
+    flex: 0 0 30%;
+    padding: 2rem 0;
+}
+
+.imageWrapper {
+    position: relative;
+    color: white;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.image {
+
+}
+
+.imageInfo {
+    width: 100%;
+    position: absolute;
+    background-color: rgba(21, 24, 36, 0.6);
+    display: flex;
+    justify-content: space-between;
+    bottom: 24px;
+    padding: 1.1rem 1.6rem;
+}
+
+.imageInfo > * {
+    flex-shrink: 1;
+    /* padding: 0 1rem; */
+}
+
+.imageInfo > *:first-child {
+    flex-grow: 1;
+}
+
+.imageInfoButtonsSection {
+    display: flex;
+}
+
+.imageInfoButtonsSection > *:first-child {
+    margin-right: 1rem;
+}
+
+.imageInfoButtonWrapper {
+    display: flex;
+}
+
+.imageInfoButtonWrapper > *:first-child {
+    margin-right: 0.4rem;
+    font-size: 1rem;
+}
+
+.imageInfoButton {
+    color: white;
+}
