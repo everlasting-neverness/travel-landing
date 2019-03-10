@@ -8,7 +8,7 @@ import { Card } from '../../../ui-kit/Card';
 import { Flex } from '../../../ui-kit/Flex';
 import { VARIANTS as AnchorVARIANTS } from '../../../ui-kit/Anchor';
 
-import images from './img/*.png';
+import images from './img/*.jpg';
 
 const propTypes = {
     locations: PropTypes.arrayOf(PropTypes.object)

@@ -6,7 +6,7 @@ import { H3, VARIANTS as H3VARIANTS } from '../../../../ui-kit/H3';
 import { Anchor, VARIANTS as AnchorVARIANTS } from '../../../../ui-kit/Anchor';
 import { Card } from '../../../../ui-kit/Card';
 
-import images from './img/*.png';
+import images from './img/*.jpg';
 
 const propTypes = {
     detailedArticles: PropTypes.arrayOf(PropTypes.object)
