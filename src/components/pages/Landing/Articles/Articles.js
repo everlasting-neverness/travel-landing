@@ -14,7 +14,7 @@ const propTypes = {
 function Articles(props) {
   const { places } = props;
   return (
-    <section>
+    <section id="articles">
       <div className={s.header}>
         <H3 variant={H3VARIANTS.underlined}>Get inspired for your next trip</H3>
         <Anchor href={'#'} variant={AnchorVARIANTS.default}>View All →</Anchor>
@@ -29,9 +29,9 @@ function Articles(props) {
               )}
               key={i}
             >
-              <img className={s.image} src={images[place]} alt={place}/>
+              <h5 className={s.imageTitle}>{place}</h5>
               <div className={s.imageCover}></div>
-              <div className={s.imageTitle}>{place}</div>
+              <img className={s.image} src={images[place]} alt={place}/>
             </div>)
         })}
       </div>

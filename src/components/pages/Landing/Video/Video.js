@@ -38,7 +38,7 @@ class Video extends React.Component {
 
     render() {
         return (
-            <section className={s.videoContainer}>
+            <section id="videos" className={s.videoContainer}>
                 <div className={s.video} ref="video" onClick={this.playVideo}>
                     {this.state.videoButtonEnabled ? 
                         <React.Fragment>

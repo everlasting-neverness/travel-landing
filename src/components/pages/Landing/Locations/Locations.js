@@ -17,7 +17,7 @@ const propTypes = {
 function Locations(props) {
     const { locations } = props;
     return (
-        <section>
+        <section id="locations">
             <div className={s.header}>
                 <H3 variant={H3VARIANTS.underlined}>
                     Today top places to visit
@@ -41,7 +41,11 @@ function Locations(props) {
                                 }}
                             />
                             <div className={s.imageInfo}>
-                                <span>{location.title}</span>
+                                <h6 className={s.imageTitle}>
+                                    <a href={location.href} className={s.imageLink}>
+                                        {location.title}
+                                    </a>
+                                </h6>
                                 <div className={s.imageInfoButtonsSection}>
                                     <div className={s.imageInfoButtonWrapper}>
                                         <span>{location.likes}</span>

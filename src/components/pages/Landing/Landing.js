@@ -2,7 +2,7 @@ import React from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { far } from '@fortawesome/free-regular-svg-icons';
-import { faHeart } from '@fortawesome/free-solid-svg-icons'
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import s from './Landing.css';
 import { Header } from './Header';
 import { Panel, VARIANTS as PanelVARIANTS } from '../../ui-kit/Panel';
@@ -28,7 +28,7 @@ library.add(far.faCircle, far.faCommentAlt, faHeart);
 function Landing() {
     return (
         <div>
-            <div className={s.intro}>
+            <div id="home" className={s.intro}>
                 <div className={s.introContent}>
                     <div className={s.container}>
                         <div className={s.padding1}>

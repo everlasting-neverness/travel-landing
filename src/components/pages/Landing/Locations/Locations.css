@@ -25,10 +25,6 @@
     text-transform: uppercase;
 }
 
-.image {
-
-}
-
 .imageInfo {
     width: 100%;
     position: absolute;
@@ -46,6 +42,17 @@
 
 .imageInfo > *:first-child {
     flex-grow: 1;
+}
+
+.imageTitle {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+
+.imageLink {
+    text-decoration: none;
+    color: #fff;
 }
 
 .imageInfoButtonsSection {

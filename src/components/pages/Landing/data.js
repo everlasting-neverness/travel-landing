@@ -35,19 +35,19 @@ export const detailedArticles = [
 ];
 
 export const navLinks = [
-  { href: "/articles", text: "Articles" },
-  { href: "/locations", text: "Locations" },
-  { href: "/videos", text: "Videos" },
-  { href: "/sign_in", text: "Sign in" }
+  { href: "#articles", text: "Articles" },
+  { href: "#locations", text: "Locations" },
+  { href: "#videos", text: "Videos" },
+  { href: "#sign_in", text: "Sign in" }
 ];
 
 export const locations = [
-  { image: "Nagoya", likes: 221, comments: 50, title: "Nagoya", body: "Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this." },
-  { image: "Nigata", likes: 221, comments: 50, title: "Nigata", body: "Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this." },
-  { image: "Osaka", likes: 221, comments: 50, title: "Osaka", body: "Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this." },
-  { image: "Saitama", likes: 221, comments: 50, title: "Saitama", body: "Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this." },
-  { image: "Ueno", likes: 221, comments: 50, title: "Ueno", body: "Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this." },
-  { image: "Shibuya", likes: 221, comments: 50, title: "Shibuya", body: "Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this." }
+  { href: "javascript:void(0);", image: "Nagoya", likes: 221, comments: 50, title: "Nagoya", body: "Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this." },
+  { href: "javascript:void(0);", image: "Nigata", likes: 221, comments: 50, title: "Nigata", body: "Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this." },
+  { href: "javascript:void(0);", image: "Osaka", likes: 221, comments: 50, title: "Osaka", body: "Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this." },
+  { href: "javascript:void(0);", image: "Saitama", likes: 221, comments: 50, title: "Saitama", body: "Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this." },
+  { href: "javascript:void(0);", image: "Ueno", likes: 221, comments: 50, title: "Ueno", body: "Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this." },
+  { href: "javascript:void(0);", image: "Shibuya", likes: 221, comments: 50, title: "Shibuya", body: "Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this." }
 ];
 
 export const videoData = { link: 'https://youtu.be/6qGiXY1SB68', id: '6qGiXY1SB68' }
@@ -55,26 +55,26 @@ export const videoData = { link: 'https://youtu.be/6qGiXY1SB68', id: '6qGiXY1SB6
 export const footerData = [
     {
         "Company": [
-            { href: "#", text: "About" },
-            { href: "#", text: "Team" },
-            { href: "#", text: "Careers" },
-            { href: "#", text: "Private Policy" },
+            { href: "javascript:void(0);", text: "About" },
+            { href: "javascript:void(0);", text: "Team" },
+            { href: "javascript:void(0);", text: "Careers" },
+            { href: "javascript:void(0);", text: "Private Policy" },
         ]
     },
     {
         "Locations": [
-            { href: "#", text: "Tokyo" },
-            { href: "#", text: "Kyoto" },
-            { href: "#", text: "Osaka" },
-            { href: "#", text: "Hokkaido" },
+            { href: "javascript:void(0);", text: "Tokyo" },
+            { href: "javascript:void(0);", text: "Kyoto" },
+            { href: "javascript:void(0);", text: "Osaka" },
+            { href: "javascript:void(0);", text: "Hokkaido" },
         ]
     },
     {
         "Social Media": [
-            { href: "#", text: "Facebook" },
-            { href: "#", text: "Twitter" },
-            { href: "#", text: "Instagram" },
-            { href: "#", text: "Youtube" },
+            { href: "javascript:void(0);", text: "Facebook" },
+            { href: "javascript:void(0);", text: "Twitter" },
+            { href: "javascript:void(0);", text: "Instagram" },
+            { href: "javascript:void(0);", text: "Youtube" },
         ]
     },
 ];

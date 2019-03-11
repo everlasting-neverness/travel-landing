@@ -23,7 +23,7 @@ class Discover extends React.Component {
 
     render() {
         return (
-            <section className={cx(this.props.className, s.container)}>
+            <section id="sign_in" className={cx(this.props.className, s.container)}>
                 <h1 className={s.title}>Discover Amazing places in Japan</h1>
                 <p className={s.content}>
                     Jump off balcony, onto stranger's head. Chase ball of string

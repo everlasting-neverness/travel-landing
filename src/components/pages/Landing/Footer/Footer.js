@@ -15,10 +15,12 @@ function Footer(props) {
     <footer className={s.footer}>
         <Flex className={s.footerContainer} justifyContent="space-between">
             <Flex justifyContent="space-between" alignItems="center">
-                <img
-                    src={require("../img/odigo-Logo@2x.png")}
-                    alt="Odigo"
-                />
+                <a href="#home">
+                    <img
+                        src={require("../img/odigo-Logo@2x.png")}
+                        alt="Odigo"
+                    />
+                </a>
             </Flex>
             <Flex justifyContent="space-between" alignItems="center">
                 <ul

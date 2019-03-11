@@ -13,11 +13,13 @@ function Header(props) {
   return (
     <header className={s.header}>
       <Flex justifyContent="space-between">
-        <img
-          src={require("../img/odigo-Logo.png")}
-          srcSet={`${require("../img/odigo-Logo.png")} 1x, ${require("../img/odigo-Logo@2x.png")} 2x`}
-          alt="Odigo"
-        />
+        <a href="#home">
+          <img
+              src={require("../img/odigo-Logo.png")}
+              srcSet={`${require("../img/odigo-Logo.png")} 1x, ${require("../img/odigo-Logo@2x.png")} 2x`}
+              alt="Odigo"
+          />
+        </a>
         <nav>
           <ul
             className={s.nav}
